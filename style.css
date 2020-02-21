@@ -68,10 +68,15 @@ section {
 .works {
     display: inline-flex;
 }
-.work h2 {
+.work-h2 {
     font-size: 20px;
     text-align: center;
     align-content: center;
+    background-color: blanchedalmond;
+    height: 150px;
+    box-shadow: 10px 10px 5px rgb(95, 95, 95);
+    
+    
 }
 .img-box {
     height: 900px;
@@ -80,10 +85,10 @@ section {
 }
 .box-img {
     width: 100%;
-    height: 400px;
+    height: 300px;
     /* background-color: bisque; */
     /* border: 2px solid green; */
-    margin: 0px;
+    margin: 5px;
     padding: 10px;
     box-shadow: 10px 10px 5px rgb(78, 78, 78);
 }
@@ -109,8 +114,8 @@ section {
     position: relative;
     width: 500px;
     padding: 10px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 33%;
+    margin-right: 33%;
     box-shadow: 10px 10px 5px;
 }
 
