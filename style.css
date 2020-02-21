@@ -1,0 +1,123 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+section {
+    height: 500px;
+    margin-bottom: 100px;
+    /* border: 2px solid red; */
+}
+
+
+
+.section1 {
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    
+}
+
+.intro {}
+.half-width {
+    width: 40%;
+    float: left;
+}
+.half-width img {
+    width: 800px;
+    height: 600px;
+    
+}
+.link-btn {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, indianred, rgb(255, 162, 146));
+    color: white;
+    padding: 10px;
+    font-family: 500;
+    border-radius: 8px;
+}
+
+
+
+/* .section2 {
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-image:;
+} */
+
+.biography {
+    display: flex;
+}
+.biography img {
+    width: 800px;
+    height: 600px;
+    float: right;
+    margin-right: 1600px;
+}
+.biography-article {
+    margin-top: 20px;
+}
+
+
+
+.section3 {
+    display: flex;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+   
+}
+
+.works {
+    display: inline-flex;
+}
+.work h2 {
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+}
+.img-box {
+    height: 900px;
+    width: 100%;
+    display: flex;
+}
+.box-img {
+    width: 100%;
+    height: 400px;
+    /* background-color: bisque; */
+    /* border: 2px solid green; */
+    margin: 100px;
+    padding: 30px;
+    box-shadow: 10px 10px 5px rgb(78, 78, 78);
+}
+
+
+
+.section4 {
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+}
+
+.client-comment {
+    text-align: center;
+}
+.heading {
+    color: indianred;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px;
+}
+.msg-box {
+    background-color: indianred;
+    text-align: center;
+    position: relative;
+    width: 700px;
+    padding: 10px;
+    margin-left: 38%;
+    margin-right: 38%;
+    box-shadow: 10px 10px 5px;
+}
+
+
+
+.section5 {}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
